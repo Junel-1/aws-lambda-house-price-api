@@ -7,12 +7,8 @@
 6. Function URL & Postman Test
 
 **Step 1: Model Training & Serialization**
-* Model: Built and trained a simple house price prediction model in Python using scikit-learn.
-* Export: Serialized the trained model artifacts into a binary .joblib file (house_price_model.joblib) for zero-overhead loading at runtime.
-
-**Step 1: Model Training & Serialization**
-* Model: Built and trained a simple house price prediction model in Python using scikit-learn.
-* Export: Serialized the trained model artifacts into a binary .joblib file (house_price_model.joblib) for zero-overhead loading at runtime.
+* Model: Built and trained a simple house price prediction model in Python using scikit-learn. `main.py`
+* Export: Serialized the trained model artifacts into a binary .joblib file (house_price_model.joblib) for zero-overhead loading at runtime. `house_price_model.joblib`
 
 **Step 2: REST API Construction (FastAPI + Mangum)**
 * Framework: Created main.py using FastAPI to define input schema models (like sqft, bedrooms, bathrooms) and write the /predict POST endpoint.

@@ -93,10 +93,19 @@ Method A: via Postman
 
 and then Run it.
 
-Method B: Python Test Script
+Method B: Python Test Script\
 Create a `test_api.py` locally
 and then run it in cli `python test_api.py`
 
+Optional: You should also be able to access the House Price Prediction API via web browser \
+Interactive Documentation (Swagger)
+https://<your-function-id>.lambda-url.<region>.on.aws/docs
+
+<img width="1249" height="1210" alt="image" src="https://github.com/user-attachments/assets/a7af6d9b-5e2f-4c9b-8ee8-760e0d396d1b" />
+
+
+
+--End--
 
 
 

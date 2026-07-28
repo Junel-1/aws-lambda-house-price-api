@@ -16,7 +16,7 @@ Create a Folder(you can create via CLI but this is optional)
 
 
 ## Phase 2: Model Training & API Code
-Step 1: Train & Save the Machine Learning Model
+Step 1: Train & Save the Machine Learning Model \
 Create a script named `house_price_prediction.ipynb`(I used google colab for this one) to train your scikit-learn regression model and save it locally. 
 
 Step 2: Save the joblib file in your local folder.
